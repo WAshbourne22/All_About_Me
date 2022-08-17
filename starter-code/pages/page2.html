@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner&display=swap" rel="stylesheet">
+    <title>All About Me</title>
+      <style type="text/css">
+      #slider {
+        overflow: hidden;
+      }
+      #slider figure {
+        position: relative;
+        width: 200%;
+        margin: 0;
+        left: 0;
+        animation: 15s slider infinite;
+      }
+      #slider figure img {
+        float: left;
+        width: 20%;
+      }
+      @keyframes slider {
+        0%{left:0;}
+        20% {left:0;}
+        25% {left: -100%;}
+        45% {left: -100%;}
+        50% {left: -200%;}
+        70% {left: -200%;}
+        75% {left: -300%;}
+        95% {left: -300%;}
+        100% {left: -400%;}
+      }
+      </style>
+  </head>
+<body>
+  <header>
+    <nav>
+     <button><a href="../index.html">Back to Home</a></button>
+    </nav>
+  </header>
+  <div id="slider">
+    <figure>
+      <img src="lesson- starter-code\starter-code\img\Carnival 1.jpg">
+      <img src="lesson- starter-code\starter-code\img\Cake 1.jpg">
+      <img src="lesson- starter-code\starter-code\img\Carnival 2.jpg">
+      <img src="lesson- starter-code\starter-code\img\Cake 3.jpg">
+      <img src="lesson- starter-code\starter-code\img\Carnival 1.jpg">
+    </figure>
+  </div>
+</body>
+</html>
